@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+div#apresentacao{
+    text-align: center;
+}
+
+footer{
+    background-color: azure;
+}
+
+.formacao:hover{
+    transition-delay: 500ms linear;
+}
+
+h1{
+    background-image: linear-gradient(to right, blue, yellow);
+    color: white;
+}
+
+h2{
+    background-image: linear-gradient(to right, blue, yellow);
+    color: white;
+}
