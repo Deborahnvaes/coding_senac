@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+    color: white;
+    
+}
+
+body{
+    font-family: monospace;
+    font-size: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+
+nav{
+    margin-bottom: 20px;
+    text-align: center;
+}   
+
+main{
+    text-align: center;
+}
+
+#apresentacao{
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+footer{
+    text-align: center;
+}
