@@ -4,25 +4,31 @@
     padding: 0px;
 }
 
+html{
+    height: 100vh;
+}
+
 body{
     /*background-color:  #c5ebd6;;*/
     font-family: monospace;
 }
 
 header{
-    padding: 20px;
     background-image: linear-gradient(to bottom, #063d1e, #2fa866);
+    height: 20vh;
 }
 
 h1{
+    padding-top: 30px;
     color: white;
-    font-size: 3em;
+    font-size: 55px;
     text-align: center;
 }
 
 
 nav {
-    font-size: 1.3em;
+    padding-bottom: 15px;
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: px;
@@ -30,24 +36,33 @@ nav {
 }
 
 nav > a{
-    color: #a5c0b1;
+    color: white;
     padding: 10px;
     border-radius: 5px;
     transition-duration: 0.5s;
 }
 nav > a:hover{
-    background-color: rgb(75, 74, 74)
+    background-color: rgb(119, 170, 61)
 }
 
 main{
     background-color: #a8e2b1;
-    text-align: center;
+    height: 75vh;
+}
+
+main  div{
+    display: flex;
+    justify-content: center;
     
 }
 
 iframe{
+    margin-top: 30px;
+    padding-top: 15px;
     background-color: rgb(295, 245, 245);
     border-radius: 10px;
+    width: 800px;
+    height: 65vh;
    }
 
 table{
@@ -65,15 +80,48 @@ ol li{
     /*padding-top: 90px;*/
     display: flex;
     justify-content: center;
-    
+}
+
+#apresentacao_texto{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+}
+#div_identificacao{
+    display: flex;
+    justify-content: center;
+}
+
+#lista_identificacao{
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 1.5;
+    list-style: none;
+    margin: auto;
+}
+
+#div_formacao{
+
+}
+
+div ol li{
+    padding-top: 30px;
+    font-size: 25px;
+
+}
+
+table th, td{
+    font-size: 17px;
 }
 
 footer{
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     text-align: center;
-    font-size: 1.2em;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 7px;
+    height: 5vh;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -82,8 +130,9 @@ footer{
 footer a{
     color: white;
     font-weight: bold;
+    font-size: 20px;
     text-decoration: none;
-    padding-top: 15px;
+    
 }
 
 footer a:hover{
