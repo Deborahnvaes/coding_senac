@@ -2,6 +2,7 @@
     font-family: monospace;
     margin: 0px;
     padding: 0px;
+    font-size: 1em;
 }
 
 html{
@@ -11,33 +12,34 @@ html{
 body{
     /*background-color:  #c5ebd6;;*/
     font-family: monospace;
+     
 }
 
 header{
     background-image: linear-gradient(to bottom, #063d1e, #2fa866);
-    height: 20vh;
+    height: 15vh;
 }
 
 h1{
-    padding-top: 30px;
+    padding-top: 3vh;
     color: white;
-    font-size: 55px;
+    font-size: 5vw ;
     text-align: center;
 }
 
 
 nav {
-    padding-bottom: 15px;
-    font-size: 20px;
+    padding-bottom: 5vh;
+    font-size: 1.8vw;
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
     font-weight: bold;
 }
 
 nav > a{
     color: white;
-    padding: 10px;
+    padding: 1vw;
     border-radius: 5px;
     transition-duration: 0.5s;
 }
@@ -57,23 +59,23 @@ main  div{
 }
 
 iframe{
-    margin-top: 30px;
-    padding-top: 15px;
+    margin-top: 10vh;
+    padding-top: 2vh;
     background-color: rgb(295, 245, 245);
     border-radius: 10px;
-    width: 800px;
-    height: 65vh;
+    width: 80vw;;
+    height: 50vh;
    }
 
 table{
     padding-top: 80px;
     border-spacing: 10px;
-    font-size: 17px;
+    font-size: 2vw;
 }
 
 ol li{
     text-align: center;
-    font-size: 20px;
+    font-size: 2vw;
 }
 
 #apresentacao{
@@ -86,7 +88,7 @@ ol li{
     margin-top: 10px;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 15px;
+    font-size: 1.7vw;
     text-align: justify;
     line-height: 1.5;
 }
@@ -96,8 +98,8 @@ ol li{
 }
 
 #lista_identificacao{
-    padding-top: 20px;
-    font-size: 25px;
+    padding-top: 5vh;
+    font-size: 3vw;
     line-height: 1.5;
     list-style: none;
     margin: auto;
@@ -109,19 +111,21 @@ ol li{
 
 div ol li{
     padding-top: 30px;
-    font-size: 25px;
+    font-size: 2.7vw;
 
 }
 
 table th, td{
-    font-size: 17px;
+    font-size: 2.7;
+    padding-left: 1px;
+    padding-right: 1px;
 }
 
 footer{
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     text-align: center;
-    padding-top: 7px;
-    height: 5vh;
+    padding-top: 3vh;
+    height: 10vh;
     color: white;
     font-weight: bold;
     text-decoration: none;
@@ -130,7 +134,7 @@ footer{
 footer a{
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.6vw;
     text-decoration: none;
     
 }
