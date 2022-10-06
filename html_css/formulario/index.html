@@ -14,27 +14,27 @@
     <form>
         <fieldset>
             <div>
-                <label>Nome</label>
+                <label>Nome*</label>
                 <input type="text" name="nome" id="nome">
             </div>
 
             <div>
-                <label>Sobrenome</label>
+                <label>Sobrenome*</label>
                 <input type="text" name="sobrenome" id="sobrenome">
             </div>
 
             <div>
-                <label>Telefone</label>
+                <label>Telefone*</label>
                 <input type="number" name="telefone" id="telefone">
             </div>
 
             <div>
-                <label>Email</label>
+                <label>Email*</label>
                 <input type="email" name="email" id="email">
             </div>
 
             <div>
-                <label>Mensagem</label>
+                <label>Mensagem*</label>
                 <textarea row="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
             </div>
 
@@ -45,6 +45,11 @@
                     <option>Inglês</option>
                     <option>Espanhol</option>
                 </select>
+            </div>
+
+            <div>
+                <label>Protótipo</label>
+                <input type="file" name="file" id="file">
             </div>
 
             <div>
@@ -78,7 +83,7 @@
             </div>
 
             <div>
-                <label>Turno para reuniões</label>
+                <label>Turno para reuniões*</label>
                 <input type="checkbox" name="manha" id="manha" value="Manhã">
                 <label for="manha">Manhã</label>
 
@@ -89,8 +94,22 @@
                 <label for="noite">Noite</label>
             </div>
 
+            <div>
+                <label>Horário sugerido</label>
+                <input type="time" name="time" id="time">
+            </div>
+
+            <div>
+                <label>Data prevista para entrega*</label>
+                <input type="date" name="date" id="date">
+            </div>
+
             <button type="submit">Enviar</button>
             <button type="clean">Limpar</button>
+
+            <div>
+                <p>*Campos Obrigatórios</p>
+            </div>
         </fieldset>
     </form>
 </body>
