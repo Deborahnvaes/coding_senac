@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="pt-br">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <div>
+        <h1>Formulário de Freelancer</h1>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div>
+                <label>Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div>
+
+            <div>
+                <label>Telefone</label>
+                <input type="number" name="telefone" id="telefone">
+            </div>
+
+            <div>
+                <label>Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label>Mensagem</label>
+                <textarea row="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <div>
+                <label>Lingua</label>
+                <select id="lingua">
+                    <option>Português</option>
+                    <option>Inglês</option>
+                    <option>Espanhol</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Linguagens que você prefere</label>
+                <select id="linguagens">
+                    <option>Java</option>
+                    <option>C#></option>
+                    <option>C++</option>
+                    <option>Python</option>
+                    <option>Javascript</option>
+                </select>
+            </div>
+
+            <div>
+                <label>Banco de Dados</label>
+                <label>
+                    <input type="radio" name="BD" value="MySQL">MySQL
+                </label>
+               
+                <label>
+                    <inputtype="radio" name="BD" value="Postgresql">Postgresql
+                </label>
+                
+                <label>
+                    <input type="radio" name="BD"value="MongoBD">MongoBD
+                </label>
+                
+                <label>
+                    <input type="radio" name="BD" value="N/A">N/A
+                </label>
+            </div>
+
+            <div>
+                <label>Turno para reuniões</label>
+                <input type="checkbox" name="manha" id="manha" value="Manhã">
+                <label for="manha">Manhã</label>
+
+                <input type="checkbox" name="tarde" id="tarde" value="Tarde">
+                <label for="tarde">Tarde</label>
+
+                <input type="checkbox" name="noite" id="noite" value="Noite">
+                <label for="noite">Noite</label>
+            </div>
+
+            <button type="submit">Enviar</button>
+            <button type="clean">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
