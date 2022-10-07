@@ -1,116 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="pt-br">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    <div>
-        <h1>Formulário de Freelancer</h1>
-    </div>
-
-    <form>
-        <fieldset>
-            <div>
-                <label>Nome*</label>
-                <input type="text" name="nome" id="nome">
+    <fieldset>
+        <legend>Formulário de Freelancer</legend>
+        <div>
+            <label for="nome">Nome:<em>*</em></label> <br>
+            <input type="text" id="nome" name="Nome" placeholder="Digite o seu Nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="Sobrenome">Sobrenome:<em>*</em></label>
+            <input type="text" id="sobrenome" name="Sobrenome" placeholder="Digite o seu Sobrenome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:<em>*</em></label>
+            <input type="email" id="email" name="E-mail" placeholder="Digite o seu E-mail" required>
+        </div>
+        <br>
+        <div>
+            <label for="Mensagem">Mensagem:<em>*</em></label>
+            <textarea id="mensagem" name="Mensagem" rows="6" style="height: 100px;" placeholder="Informe o que Deseja"></textarea>
+        </div>
+        <br>
+        <div>
+            <label>Lingua:</label>
+            <select class="browser-default ">
+                <option value="" disabled selected style="border-radius: 3px;">Selecione um Idioma</option>
+                <option value="portugues">Português</option>
+                <option value="ingles">Inglês</option>
+                <option value="espanhol">Espanhol</option>
+                <option value="frances">Francês</option>
+            </select>
+        </div>
+        <br>
+        <label for="arquivo">Protótipo(Requisitos):</label>
+        <br>
+        <div class="file-field input-field">
+            <div class="btn">
+                <span>Escolher arquivo</span>
+                <input type="file" multiple>
             </div>
-
-            <div>
-                <label>Sobrenome*</label>
-                <input type="text" name="sobrenome" id="sobrenome">
+            <div class="file-path-wrapper">
+                <input class="file-path validate" type="text" placeholder="Nenhum Aquivo Selecionado">
             </div>
+        </div>
+        <div>
+            <label for="bancodeDados" id="bancodados" name="Banco de Dados">Banco de Dados:
+                <input name="BancodeDados" type="radio" />
+                <span>mySQL |</span>
+            </label>
+            <label>
+                <input name="postergree" type="radio" />
+                <span>posterGree |</span>
+            </label>
+            <label>
+                <input name="mongodb" type="radio" />
+                <span>mongoDB |</span>
+            </label>
+            <label>
+                <input name="n/a" type="radio" />
+                <span>N/a |</span>
+            </label>
+            <label>
+                <input name="outro" type="radio" />
+                <span>Outro</span>
+            </label>
+        </div>
+        <br>
 
-            <div>
-                <label>Telefone*</label>
-                <input type="number" name="telefone" id="telefone">
-            </div>
-
-            <div>
-                <label>Email*</label>
-                <input type="email" name="email" id="email">
-            </div>
-
-            <div>
-                <label>Mensagem*</label>
-                <textarea row="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
-            </div>
-
-            <div>
-                <label>Lingua</label>
-                <select id="lingua">
-                    <option>Português</option>
-                    <option>Inglês</option>
-                    <option>Espanhol</option>
-                </select>
-            </div>
-
-            <div>
-                <label>Protótipo</label>
-                <input type="file" name="file" id="file">
-            </div>
-
-            <div>
-                <label>Linguagens que você prefere</label>
-                <select id="linguagens">
-                    <option>Java</option>
-                    <option>C#></option>
-                    <option>C++</option>
-                    <option>Python</option>
-                    <option>Javascript</option>
-                </select>
-            </div>
-
-            <div>
-                <label>Banco de Dados</label>
+        <div>
+            <label for="TurnoReunioes" id="turnoreunioes" name="Turno Para Reuniao">Turno Para Reuniões:<em>*</em>
                 <label>
-                    <input type="radio" name="BD" value="MySQL">MySQL
+                    <input type="checkbox" /> <span>Manhã</span>
                 </label>
-               
                 <label>
-                    <inputtype="radio" name="BD" value="Postgresql">Postgresql
+                    <input type="checkbox" /> <span>Tarde</span>
                 </label>
-                
                 <label>
-                    <input type="radio" name="BD"value="MongoBD">MongoBD
-                </label>
-                
-                <label>
-                    <input type="radio" name="BD" value="N/A">N/A
+                    <input type="checkbox" /> <span>Noite</span>
                 </label>
             </div>
-
+            <br>
             <div>
-                <label>Turno para reuniões*</label>
-                <input type="checkbox" name="manha" id="manha" value="Manhã">
-                <label for="manha">Manhã</label>
-
-                <input type="checkbox" name="tarde" id="tarde" value="Tarde">
-                <label for="tarde">Tarde</label>
-
-                <input type="checkbox" name="noite" id="noite" value="Noite">
-                <label for="noite">Noite</label>
+                <label for="horario">Horário Sugerido:</label>
+                <input type="time" name="usr_horario">
             </div>
-
+            <br>
             <div>
-                <label>Horário sugerido</label>
-                <input type="time" name="time" id="time">
+                <label for="email">Data Prevista Entrega:<em>*</em></label>
+                <br>
+                <input type="datetime" id="Data" name="dd/mm/aaaa" placeholder="dd/mm/aaaa" required>
             </div>
-
+            <br>
             <div>
-                <label>Data prevista para entrega*</label>
-                <input type="date" name="date" id="date">
+                <input type="submit" value="Enviar">
+                <br>
+                <input type="submit" value="Limpar">
             </div>
+            <div><em>*</em> Campos obrigatórios</div>
 
-            <button type="submit">Enviar</button>
-            <button type="clean">Limpar</button>
-
-            <div>
-                <p>*Campos Obrigatórios</p>
-            </div>
-        </fieldset>
-    </form>
+    </fieldset>
 </body>
 </html>
