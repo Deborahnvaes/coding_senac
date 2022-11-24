@@ -14,8 +14,7 @@ Atividade Curriculo com Iframe
 
 Projeto Grão a Granel
 </br>
-<a href="https://augustodantasdv.github.io/coding_senac/projeto_grao_a_granel/index/index.html">https://augustodantasdv.github.io/coding_senac/projeto_grao_a_granel/index/index.html</a>
+<a href="https://augustodantasdv.github.io/coding_senac/index/index.html">https://augustodantasdv.github.io/coding_senac/index/index.html</a>
 </br></br>
-
 
 
