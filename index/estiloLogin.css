@@ -1,0 +1,15 @@
+
+
+.loginTotal {
+    width: 98vw;
+    height: 98vh;
+    background-color: gray
+}    
+
+.loginTotal02{
+    width: 35vw;
+    height: 85vh;
+    
+    text-align: center;
+    background-color: rgb(243, 73, 73);
+}
