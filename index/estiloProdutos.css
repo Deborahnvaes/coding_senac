@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
-
 
 body{
-    background: rgb(231, 238, 238);
-    font-family: "marmelad";
+    background: #f2f2f2;;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
 }
 
 /* INÍCIO DO HEADER */
@@ -34,7 +33,7 @@ body{
 
 .barraDeNavegacao{
     display: inline-block;
-    font-family: Marmelad;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 
     position: relative;
@@ -837,7 +836,7 @@ body{
     height: 180px;
     display: flex;
     background-color: #393d41;
-    font-family: marmelad;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 80px;
     
 }

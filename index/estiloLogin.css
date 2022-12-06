@@ -1,15 +1,46 @@
 
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*  background-image: linear-gradient(45deg, cyan, yellow);  */
+    background-image: linear-gradient(45deg, rgba(54, 148, 0, 0.678), rgba(54, 148, 0, 0.678), rgb(231, 238, 238)) ;
 
-.loginTotal {
-    width: 98vw;
-    height: 98vh;
-    background-color: gray
-}    
-
-.loginTotal02{
-    width: 35vw;
-    height: 85vh;
     
-    text-align: center;
-    background-color: rgb(243, 73, 73);
+}
+
+.telaDeLogin{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 90vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    width: 230px;
+    padding: 8px;
+    border: none;
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+button{
+    background-color: dodgerblue;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
 }
