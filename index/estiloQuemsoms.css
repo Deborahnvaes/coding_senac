@@ -5,10 +5,10 @@ body{
 }
 /* INÍCIO DO HEADER */
 .header{
-    width: 95vw;
+    width: 98vw;
     height: 150px;
     background-color: rgba(96, 177, 88, 0.712);
-    margin: 30px auto;
+    margin: auto;
     display: flex;
     align-items: center;
     border-radius: 0.1cm;
@@ -104,9 +104,10 @@ body{
 }
 
 .quemSomosPrincipalTexto{
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-left: 25px;
     margin-top: 25px;
+    text-align: justify;
     
 }
 

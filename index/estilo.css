@@ -10,7 +10,7 @@ body{
     width: 98vw;
     height: 150px;
     background-color: rgba(96, 177, 88, 0.712);
-    margin: 30px auto;
+    margin: auto;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -112,9 +112,10 @@ body{
 .manual-navigation{
     position: absolute;
     width: 98vw;
-    margin-top: -180px;
+    margin-top: -150px;
     display: flex;
     justify-content: center;
+    
 }
 
 .manual-btn{
@@ -184,7 +185,7 @@ body{
 .estiloDeAlimentacao p{
     width: 98vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     text-align: center;
     
 }
@@ -199,7 +200,7 @@ body{
 }
 
 .icones img{
-    width: 80px;
+    width: 70px;
     padding: 20px 10px;
     margin-right: 5%;
     margin-left: 5%;
